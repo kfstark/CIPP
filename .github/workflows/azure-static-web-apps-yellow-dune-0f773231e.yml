@@ -3,11 +3,11 @@ name: Azure Static Web Apps CI/CD
 on:
   push:
     branches:
-      - kfsdev
+      - main
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
-      - kfsdev
+      - main
 
 jobs:
   build_and_deploy_job:

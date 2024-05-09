@@ -34,10 +34,6 @@ const _nav = [
     name: 'SR Project Management',
   },
   {
-    component: CNavTitle,
-    name: 'Identity Management',
-  },
-  {
     component: CNavGroup,
     section: 'SR Project Management',
     name: 'Email Projects',
@@ -50,6 +46,10 @@ const _nav = [
         to: '/identity/administration/users',
       },
     ],
+  },
+  {
+    component: CNavTitle,
+    name: 'Identity Management',
   },
   {
     component: CNavGroup,

@@ -31,7 +31,25 @@ const _nav = [
   },
   {
     component: CNavTitle,
+    name: 'SR Project Management',
+  },
+  {
+    component: CNavTitle,
     name: 'Identity Management',
+  },
+  {
+    component: CNavGroup,
+    section: 'SR Project Management',
+    name: 'Email Projects',
+    to: '/identity/administration',
+    icon: <FontAwesomeIcon icon={faWrench} className="nav-icon" />,
+    items: [
+      {
+        component: CNavItem,
+        name: 'Users',
+        to: '/identity/administration/users',
+      },
+    ],
   },
   {
     component: CNavGroup,
